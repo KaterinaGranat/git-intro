@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+table {
+    width: 75%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.cell {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    height: 50px;
+}
+.table1 .cell, .inner .cell {
+    width: 33%;
+}
+
+.double-row {
+    height: 200px;
+}
+
+.three {
+    width: 60%;
+}
+
+.four {
+    width: 28%;
+}
+
+.inner {
+    margin: 10px auto;
+    width: 80%
+}
